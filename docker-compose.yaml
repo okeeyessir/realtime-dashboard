@@ -1,0 +1,14 @@
+services:
+  backend:
+    build: ./backend
+    container_name: dashboard-backend
+    ports:
+      - "8080:8080"
+    restart: always
+
+  frontend:
+    build: ./frontend
+    container_name: dashboard-frontend
+    ports:
+      - "3000:80"
+    restart: always
