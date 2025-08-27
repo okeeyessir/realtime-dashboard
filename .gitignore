@@ -1,10 +1,9 @@
-.idea
+.idea/
 
-backend/target
+backend/target/
 
 frontend/dist
 frontend/node_modules
 frontend/package-lock.json
 
-backend.iml
-realtime-dashboard.iml
+*.iml
